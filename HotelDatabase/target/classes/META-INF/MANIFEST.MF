@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505825583743
+Build-Jdk: 1.8.0_131
+Built-By: benakli
+Bundle-Description: Error handling with Camel
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Beginner :: Camel Errorhandler
+Bundle-SymbolicName: com.javaworld.hotels.HotelDatabase
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.javaworld.hotels.businessobjects;version="1.0.0",com
+ .javaworld.hotels.model;uses:="com.javaworld.hotels.businessobjects,jun
+ it.framework";version="1.0.0"
+Import-Package: junit.framework
+Tool: Bnd-1.50.0
